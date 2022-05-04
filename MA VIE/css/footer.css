@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+    font-style: normal; 
+    font-weight: normal;
+}
+/* footer start */
+.footer{
+    background: #F2F2F2;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.container-footer{
+    color: #0C0C0C;
+    font-family: 'Open Sans';
+}
+.footer-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 15px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.map-site_list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 12px;
+}
+.map-site_list-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0C0C0C;
+}
+.number{
+    display: flex;
+    align-items: center;
+}
+.number-phone{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    background: linear-gradient(180deg, #658DED 0%, #3459AE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-left: 15px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.social-icon{
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+}
+.footer-basement{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.76);
+}
+.basement-year{
+    text-transform: uppercase;
+}
+.basement-list{
+    display: flex;
+}
+.basement-list-link{
+    margin-left: 50px;
+    color: rgba(0, 0, 0, 0.76);
+}
+/* footer end */
